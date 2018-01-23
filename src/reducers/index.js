@@ -46,6 +46,7 @@ const reminders = (state = [], action) => {
             return reminders;
         case CLEAR_REMINDERS: 
             reminders = [];
+            
             // save the new reminders after deleting one
             bake_cookie('reminders',reminders);
 

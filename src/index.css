@@ -29,3 +29,9 @@ input {
 .btn-add-reminder {
     margin-right: 5px;
 }
+
+.list-group-height {
+    height: 300px;
+    width: 100%;
+    overflow-y: auto;
+}

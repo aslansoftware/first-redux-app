@@ -32,7 +32,7 @@ class ReminderPro extends Component {
     renderReminders() {
         const { reminders } = this.props;
         return (
-            <ul className="list-group col-lg-4">
+            <ul className="list-group col-lg-5 list-group-height">
                 {
                         reminders.map(reminder => {
                             return (

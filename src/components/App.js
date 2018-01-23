@@ -5,7 +5,9 @@ import ReminderPro from './ReminderPro';
 class App extends Component {
     render() {
         return (
-          <ReminderPro />
+            <div>
+                <ReminderPro />
+            </div>
         )
     }
 }
