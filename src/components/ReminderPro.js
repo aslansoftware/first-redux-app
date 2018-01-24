@@ -100,7 +100,7 @@ class ReminderPro extends Component {
 
 function mapStateToProps(state) {
     return {
-        reminders: state
+        reminders: state.reminders
     }
 }
 

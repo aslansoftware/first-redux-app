@@ -1,4 +1,4 @@
-import { ADD_REMINDER,DELETE_REMINDER,CLEAR_REMINDERS } from '../constants';
+import { ADD_REMINDER,DELETE_REMINDER,CLEAR_REMINDERS, ADD_STUDENT } from '../constants';
 
 export const AddReminder = (text,dueDate) => {
     const action = {
@@ -24,5 +24,16 @@ export const ClearReminders = () => {
         type: CLEAR_REMINDERS,
     }
 
+    return action;
+}
+
+export const addStudent = (objStudent) => {
+    const action = {
+        type: ADD_STUDENT,
+        name: objStudent.name,
+        age: objStudent.age,
+        average: objStudent.average,
+    }
+    console.log('adding new student',action);
     return action;
 }

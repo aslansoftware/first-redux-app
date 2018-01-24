@@ -35,3 +35,33 @@ input {
     width: 100%;
     overflow-y: auto;
 }
+
+/* ===== Student COMPONENT SECTION ===== */
+.student-app {
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.student-app-title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.student-app-customize {
+    display: inline-block;
+}
+
+.student-app-list {
+
+}
+
+.student-list-group-item {
+    width: 400px;
+}
+.student-app-ul { 
+    width: 400px;
+}
+
+/* ===== END OF STUDENT COMPONENT SECTION ===== */
